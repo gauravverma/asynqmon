@@ -174,11 +174,6 @@ function App(props: ConnectedProps<typeof connector>) {
               >
                 <MenuIcon />
               </IconButton>
-              {isDarkTheme(theme) ? (
-                <LogoDarkTheme width={200} height={48} />
-              ) : (
-                <Logo width={200} height={48} />
-              )}
             </Toolbar>
           </AppBar>
           <div className={classes.mainContainer}>
